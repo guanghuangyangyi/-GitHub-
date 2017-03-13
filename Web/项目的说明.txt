@@ -1,0 +1,20 @@
+2017/03/13 创建项目
+
+2017/03/13 测试ASP.NET MVC Forms验证机制
+身份验证流程
+一、用户登录
+　　1、验证表单：ModelState.IsValid
+　　2、验证用户名和密码：通过查询数据库验证
+　　3、如果用户名和密码正确，则在客户端保存Cookie以保存用户登录状态：SetAuthCookie
+　　　　1)：从数据库中查出用户名和一些必要的信息，并把额外信息保存到UserData中
+　　　　2)：把用户名和UserData保存到 FormsAuthenticationTicket 票据中
+　　　　3)：对票据进行加密 Encrypt
+　　　　4)：将加密后的票据保存到Cookie发送到客户端
+　　4、跳转到登录前的页面
+二、验证登录
+　　1、在Global中注册PostAuthenticateRequest事件函数，用于解析客户端发过来的Cookie数据
+　　　　1)：通过 HttpContext.Current.User.Identity 判断用户是否登录（FormsIdentity，IsAuthenticated，AuthenticationType）
+　　　　2)：从HttpContext 的Request的Cookie中解析出Value，解密得到 FormsAuthenticationTicket  得到UserData
+　　2、角色验证
+　　　　在Action加入 Authorize特性，可以进行角色验证
+　　　   在 HttpContext.Current.User 的 IsInRole 方法进行角色认证（需要重写）
