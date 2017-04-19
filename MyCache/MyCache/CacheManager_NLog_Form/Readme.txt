@@ -1,0 +1,1 @@
+﻿此程序使用UDP通信实时显示CacheManager的调试信息，config文件中可以配置UDP监听地址和端口号。

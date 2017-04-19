@@ -1,4 +1,23 @@
-﻿using System;
+﻿// *********************************************************************************
+//
+// 文件名称(File Name)：         MyAuthorizeAttribute.cs
+// 作者(Author)：                yjq
+// 日期(Create Date)：           2017.03.13
+// 功能描述(Depiction)：         测试mvc的验证
+//
+// 修改记录(Revision History)：
+//      R1:
+//          修改作者：
+//          修改日期：
+//          修改原因：
+//
+//      R2:
+//          修改作者：
+//          修改日期：
+//          修改原因：
+//
+// ***********************************************************************************
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -32,6 +32,19 @@ namespace Web
             return userData.IsInRole(role);
         }
         /// <summary>
+        /// 用户名验证,实现IPrincipal接口必须要的
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public bool IsInUser(string user)
+        {
+            var userData = UserData as MyUserDataPrincipal;
+            if (userData == null)
+                throw new NotImplementedException();
+
+            return userData.IsInUser(user);
+        }
+        /// <summary>
         /// 
         /// </summary>
         /// <param name="ticket"></param>

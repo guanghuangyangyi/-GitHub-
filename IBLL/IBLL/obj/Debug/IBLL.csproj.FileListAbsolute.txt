@@ -1,0 +1,5 @@
+D:\我的GitHub项目\IBLL\IBLL\bin\Debug\IBLL.dll
+D:\我的GitHub项目\IBLL\IBLL\bin\Debug\IBLL.pdb
+D:\我的GitHub项目\IBLL\IBLL\obj\Debug\IBLL.dll
+D:\我的GitHub项目\IBLL\IBLL\obj\Debug\IBLL.pdb
+D:\我的GitHub项目\IBLL\IBLL\obj\Debug\IBLL.csprojResolveAssemblyReference.cache

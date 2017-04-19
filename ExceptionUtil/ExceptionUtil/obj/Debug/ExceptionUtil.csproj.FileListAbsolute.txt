@@ -1,0 +1,4 @@
+D:\我的GitHub项目\ExceptionUtil\ExceptionUtil\bin\Debug\ExceptionUtil.dll
+D:\我的GitHub项目\ExceptionUtil\ExceptionUtil\bin\Debug\ExceptionUtil.pdb
+D:\我的GitHub项目\ExceptionUtil\ExceptionUtil\obj\Debug\ExceptionUtil.dll
+D:\我的GitHub项目\ExceptionUtil\ExceptionUtil\obj\Debug\ExceptionUtil.pdb

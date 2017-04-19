@@ -1,0 +1,5 @@
+D:\我的GitHub项目\IDAL\IDAL\bin\Debug\IDAL.dll
+D:\我的GitHub项目\IDAL\IDAL\bin\Debug\IDAL.pdb
+D:\我的GitHub项目\IDAL\IDAL\obj\Debug\IDAL.dll
+D:\我的GitHub项目\IDAL\IDAL\obj\Debug\IDAL.pdb
+D:\我的GitHub项目\IDAL\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache

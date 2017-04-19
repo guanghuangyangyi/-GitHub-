@@ -1,0 +1,13 @@
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\控制台测试.exe.config
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\控制台测试.exe
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\控制台测试.pdb
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\Model.dll
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\Newtonsoft.Json.dll
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\EntityFramework.dll
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\Model.pdb
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\Newtonsoft.Json.xml
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\EntityFramework.xml
+D:\我的GitHub项目\控制台测试\控制台测试\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\我的GitHub项目\控制台测试\控制台测试\obj\Debug\控制台测试.csprojResolveAssemblyReference.cache
+D:\我的GitHub项目\控制台测试\控制台测试\obj\Debug\控制台测试.exe
+D:\我的GitHub项目\控制台测试\控制台测试\obj\Debug\控制台测试.pdb

@@ -1,0 +1,7 @@
+D:\我的GitHub项目\DAL\DAL\bin\Debug\DAL.dll
+D:\我的GitHub项目\DAL\DAL\bin\Debug\DAL.pdb
+D:\我的GitHub项目\DAL\DAL\bin\Debug\IDAL.dll
+D:\我的GitHub项目\DAL\DAL\bin\Debug\IDAL.pdb
+D:\我的GitHub项目\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\我的GitHub项目\DAL\DAL\obj\Debug\DAL.dll
+D:\我的GitHub项目\DAL\DAL\obj\Debug\DAL.pdb

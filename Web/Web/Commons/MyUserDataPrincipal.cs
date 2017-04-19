@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Model;
+using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Principal;
@@ -16,7 +18,7 @@ namespace Web
         /// <summary>
         /// 数据源
         /// </summary>
-        private readonly MingshiEntities mingshiDb = new MingshiEntities();
+        private readonly DBContext mingshiDb = new DBContext();
         public int UserId { get; set; }
 
         //这里可以定义其他一些属性
@@ -46,9 +48,10 @@ namespace Web
         public bool IsInRole(string role)
         {
             //找出用户所有所属角色
-            var userroles = mingshiDb.UserRole.Where(u => u.UserId == UserId).Select(u => u.Role.RoleName).ToList();
-            var roles = role.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-            return (from s in roles from userrole in userroles where s.Equals(userrole) select s).Any();
+            //var userroles = mingshiDb.UserRole.Where(u => u.UserId == UserId).Select(u => u.Role.RoleName).ToList();
+            //var roles = role.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+            //return (from s in roles from userrole in userroles where s.Equals(userrole) select s).Any();
+            return true;
         }
 
         /// <summary>
@@ -60,7 +63,7 @@ namespace Web
         {
             //找出用户所有所属角色
             var users = user.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-            return mingshiDb.User.Any(u => users.Contains(u.UserName));
+            return mingshiDb.Users.Any(u => users.Contains(u.name));
         }
     }
 }
